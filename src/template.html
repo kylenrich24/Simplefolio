@@ -1,0 +1,290 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Kyle Edward Sy | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Kyle Edward Sy | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Kyle Edward Sy</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Know More</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am a Web Application Developer who uses the popular MERN
+                (Mongoose, Express, React and Node) Stack.
+              </p>
+              <p class="about-wrapper__info-text">
+                There are no shortages of developers in this time and age.
+                However, there is a shortage of good, talented, egoless,
+                developers with ambition to learn. The best developers aren’t
+                the ones that know the language inside and out at the expense of
+                having blinders. It is not the ones who are unable to admit they
+                are wrong. I may not be the most experienced developer , but the
+                one thing that I can guarantee is that there is nobody that will
+                work as hard to develop his/her skills every day, play nicely
+                with other developers, and isn’t so narrow minded in problem
+                solving that he/she isn’t willing to try new novel ideas as me.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://my.indeed.com/p/kyles-gw6cp39"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Emaily</h3>
+                <div>
+                  <p class="mb-4">
+                    Emaily is a live web application that can be used to send
+                    mass emails to a big list of users for the purpose of
+                    collecting feedback for a product. ES10 is used to develop a
+                    RESTful API Server in Express and resources in React and
+                    Redux. MongoDB is integrated for a live database and
+                    GoogleOAuth for authentication of users. Handing of payment
+                    is handled via Stripe APIs. Lastly, transactional emailing
+                    and feedback collection is handled via SendGrid API
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://infinite-shore-41365.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/kylenrich24/emaily"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/emailypic.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Kyle's Court</h3>
+                <div>
+                  <p class="mb-4">
+                    Kyle's Court is a web application that archives basketball
+                    courts all over the GTA area. It is also fully deployed and
+                    made from scratch using Express, NodeJS, MongoDB and vanilla
+                    Javascript. CSSGrid, Bootstrap and SemanticUI are utilized
+                    to deliver a sleek user interface. This project is created
+                    to demonstrate RESTful routing and CRUD operations.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://mighty-island-57792.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/kylescourt.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <div>
+                  <p class="mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Excepturi neque, ipsa animi maiores repellendus distinctio
+                    aperiam earum dolor voluptatum consequatur blanditiis
+                    inventore debitis fuga numquam voluptate ex architecto
+                    itaque molestiae.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            Kyle Sy: 01(647)-700-3306
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:kylennardsy@hotmail.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kyle-edward-sy-64bb9b104/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/kylenrich24" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
